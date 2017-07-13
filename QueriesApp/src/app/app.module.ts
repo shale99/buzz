@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { QueriesPage } from '../pages/queries/queries';
+import { QueriesPage, NewqueryModal } from '../pages/queries/queries';
 import { NewqueryPage } from '../pages/newquery/newquery';
 
 @NgModule({
@@ -14,7 +14,8 @@ import { NewqueryPage } from '../pages/newquery/newquery';
         MyApp,
         HomePage,
         QueriesPage,
-        NewqueryPage
+        NewqueryPage,
+        NewqueryModal
     ],
     imports: [
         BrowserModule,
@@ -25,7 +26,8 @@ import { NewqueryPage } from '../pages/newquery/newquery';
         MyApp,
         HomePage,
         QueriesPage,
-        NewqueryPage
+        NewqueryPage,
+        NewqueryModal
     ],
     providers: [
         StatusBar,
